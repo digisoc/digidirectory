@@ -11,11 +11,13 @@ const searchClient = algoliasearch(
 const Home: NextPage = () => {
   return (
     <div>
+      <div>
       <h1>DigiDirectory</h1>
       <InstantSearch searchClient={searchClient} indexName="demo_ecommerce">
         <SearchBox />
         <Hits />
       </InstantSearch>
+      </div>
     </div>
   )
 }

@@ -108,6 +108,11 @@
   margin-left: 0.5rem;
 }
 
+.search-block {
+  display: flex;
+  margin: auto;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
